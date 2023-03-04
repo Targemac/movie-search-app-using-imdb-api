@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  font-family: calibri;
+}
+.search-wrapper {
+  background-color: #4f4f4f;
+  color: white;
+  display: grid;
+  padding: 2rem;
+  text-align: center;
+}
+.site-title {
+  font-size: 2rem;
+}
+.site-tagline {
+  color: lightgray;
+  font-style: italic;
+}
+.search-wrapper form {
+  display: grid;
+  row-gap: 0.5rem;
+}
+.search-wrapper form input {
+  font-size: 20px;
+  padding: 8px 12px;
+}
+.search-wrapper form input[type="button"] {
+  font-size: 20px;
+  padding: 8px 12px;
+  width: 20%;
+  place-self: center;
+  cursor: pointer;
+}
+
+.results-wrapper {
+  padding: 2rem;
+  gap: 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+.result-item {
+  display: grid;
+}
+.result-item .title {
+  font-weight: bold;
+}
+.result-item .extra {
+  color: grey;
+  font-style: italic;
+}
